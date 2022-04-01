@@ -1,0 +1,115 @@
+body {
+  --blue-face: #1877f2;
+  --verde-face: #36a420;
+  font-family: "SFProDisplayRegular", sans-serif;
+  
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.content {
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "SFProDisplayRegular", sans-serif;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 300px
+}
+
+.facebook-content .logo-face {
+  height: 80px;
+  margin-left: -24px;
+  margin-bottom: -15px;
+}
+
+.facebook-content {
+  max-width: 500px;  
+  text-align: left;
+  font-size: 1.3rem;
+  margin-right: 32px;
+  margin-bottom: 100px
+}
+
+
+.container-login {
+  height: 300px;
+  width: 340px;
+  background: white;
+  padding: .7rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%)
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  
+}
+.login input {
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  border: 1px solid #d7d9dd;
+  padding-left: 1rem;
+  margin-bottom: 10px;
+}
+
+.login button {
+  border: none;
+  background: var(--blue-face);
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login input:focus {
+  border: 1px solid var(--blue-face)
+}
+
+.login a {
+  text-decoration: none;
+  color: var(--blue-face);
+  text-align: center;
+  font-size: .7rem;
+  margin-top: 15px
+}
+.content-login p{
+  text-align: center;
+  font-size: 14px;  
+  margin-top: 20px;
+}
+
+.btn-account {
+  background: var(--verde-face) !important;
+  margin-top: 4rem;
+  width: 160px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.btn-login {
+  margin-top: 7px;
+}
+
+.traco {
+  border-bottom: #d7d9dd 1px solid;
+  margin-top: 20px
+}
+
