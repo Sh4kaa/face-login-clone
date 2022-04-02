@@ -130,3 +130,14 @@
   filter: brightness(85%);
   transition: 0.5s;
 }
+
+.autoral {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.autoral a {
+  text-decoration: none;
+  color: black;
+}
