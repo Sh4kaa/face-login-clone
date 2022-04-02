@@ -1,24 +1,4 @@
-body {
-  --blue-face: #1877f2;
-  --verde-face: #36a420;
-  font-family: "SFProDisplayRegular", sans-serif;
-  
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-.content {
-  background: #f0f2f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: "SFProDisplayRegular", sans-serif;
-}
+@import 'main.css';
 
 .main {
   display: flex;
