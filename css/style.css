@@ -1,11 +1,38 @@
-@import 'main.css';
+@import "main.css";
 
 .main {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 220px
+  margin: 0px 220px;
+}
+
+@media (max-width: 1300px) {
+  .main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px;
+  }
+}
+
+@media (max-width: 920px) {
+  .main {
+    display: flex;
+    margin: 0px 100px;
+    flex-direction: column;
+  }
+
+  .main .facebook-content {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .main .facebook-content p {
+    margin-bottom: 35px;
+  }
 }
 
 .facebook-content .logo-face {
@@ -15,27 +42,25 @@
 }
 
 .facebook-content {
-  max-width: 500px;  
+  max-width: 500px;
   text-align: left;
   font-size: 24px;
   margin-right: 32px;
-  margin-bottom: 100px
+  margin-bottom: 100px;
 }
-
 
 .container-login {
   height: 350px;
   width: 397px;
   background: white;
-  padding: .7rem;
+  padding: 0.7rem;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%)
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
 
 .login {
   display: flex;
   flex-direction: column;
-  
 }
 .login input {
   height: 49px;
@@ -60,19 +85,19 @@
 }
 
 .login input:focus {
-  border: 1px solid var(--blue-face)
+  border: 1px solid var(--blue-face);
 }
 
 .login a {
   text-decoration: none;
   color: var(--blue-face);
   text-align: center;
-  font-size: .7rem;
-  margin-top: 15px
+  font-size: 0.7rem;
+  margin-top: 15px;
 }
-.content-login p{
+.content-login p {
   text-align: center;
-  font-size: 14px;  
+  font-size: 14px;
   margin-top: 20px;
 }
 
@@ -88,12 +113,20 @@
 .btn-login {
   margin-top: 7px;
   height: 46px;
-  font-size: 20px !important
-  
+  font-size: 20px !important;
 }
 
 .traco {
   border-bottom: #d7d9dd 1px solid;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
+.btn-login:hover {
+  filter: brightness(85%);
+  transition: 0.5s;
+}
+
+.btn-account:hover {
+  filter: brightness(85%);
+  transition: 0.5s;
+}
